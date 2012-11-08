@@ -1,0 +1,16 @@
+Lorsque quelqu'un se connecte à nous, il faut verifier que nous sommes bien connecté à lui.
+Pour relancer la connexion, sinon trop long de reconnecter a chaque commande
+
+Ou au moins verifier a chaque envoi si tous nos contacts sont en ligne.
+
+Au lancement du logiciel faire une liste des contacts la mettre dans les non connectes
+Quand ils sopnt connectes enregistrer comme connecte, puis tenter l'authentification, si ça fonctionne alors mettre le boolean a true.
+Donc il y ura une liste d'amis avec leurs infos,
+E une simple liste de contact avec l'id de l'amis
+Peut etre ensuite une liste de "user" qui representera tous les utilisateurs de ce projet
+Dans un thread faire la verification des contacts en ligne en essayant de se connecter a la lsite des non connectes
+Si ils sont connectes, l'ajouter a la liste des connectes et l'enlever de la lsite des non connectes
+
+ContactServer : idFriend, socket, authentfié (cle publique)
+ContactClient : idFriend, socketChannel, authentfié (cle publique)
+Friend : idFriend, nom, prenom, cle publique/prive etc ..

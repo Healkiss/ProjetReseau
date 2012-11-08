@@ -1,0 +1,2 @@
+http://www.rgagnon.com/javadetails/java-0573.html
+pour parser une String xml

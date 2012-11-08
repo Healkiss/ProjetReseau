@@ -1,0 +1,4 @@
+5/11/12
+Travail sur le parsage de xml, le plus difficile a ete de prendre tous les enfants d'un noeuds et de les reformer pour qu'ils aient un bon format
+Mais ce n'est pas recurcif, ça s'arrete donc aux premier niveaux d'enfants
+J'abandonne le generique, je passe au parsage en fonction du keyword
