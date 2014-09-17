@@ -18,13 +18,13 @@ Chaque communication doit donc être une ligne XML valide. (balises ouvertes, to
 
 Syntaxe generale :
 Chaque flux (réponses, requetes ..) :
-Est une chaine en String terminé par \r\n.
-Une balise generale portant son nom : 
-<REQUEST>,<RESPONSE>..
-Deux sous-elements :
-<KEYWORD>, <CODE> ..
-le corps :
-<BODY>
+<ul><li>Est une chaine en String terminé par \r\n.</li>
+<li>Une balise generale portant son nom : 
+<REQUEST>,<RESPONSE>..</li>
+<li><ul>Deux sous-elements :
+<li>l'en tête<KEYWORD>, <CODE> ..</li>
+<li>le corps :
+<BODY></li></li></ul>
 
 
 1 Structure de données à respecter
